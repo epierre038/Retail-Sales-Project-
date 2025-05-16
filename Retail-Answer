@@ -1,0 +1,127 @@
+SELECT * 
+FROM retail_sales_dataset.retail_sales_dataset;
+
+
+
+-- 1. How does customer age and gender influence their purchasing behavior?
+SELECT Age, Gender, SUM(Total_Amount) AS Total_Spent_by_Age_Gender
+FROM retail_sales_dataset.retail_sales_dataset 
+GROUP BY Age, Gender
+ORDER BY Age, Gender;
+
+
+
+ 
+-- 2. are there discernible patterns in sales across different time periods?
+
+SELECT 
+  MONTH(STR_TO_DATE(date, '%m/%d/%Y')) AS month,
+  COUNT(*) AS total
+FROM retail_sales_dataset.retail_sales_dataset
+WHERE 
+  date IS NOT NULL AND TRIM(date) <> ''
+  AND YEAR(STR_TO_DATE(date, '%m/%d/%Y')) = 2023
+GROUP BY MONTH(STR_TO_DATE(date, '%m/%d/%Y'))
+ORDER BY MONTH(STR_TO_DATE(date, '%m/%d/%Y'));
+
+
+
+
+
+
+-- 3. Which product categories hold the highest appeal among customers?
+
+select Product_Category, sum(total_amount) 
+from retail_sales_dataset.retail_sales_dataset 
+group by Product_Category
+
+
+
+
+-- 4. What are the relationships between age, spending, and product preferences?
+
+
+
+SELECT CASE 
+    WHEN age < 20 THEN 'Under 20'
+    WHEN age BETWEEN 20 AND 29 THEN '20–29'
+    WHEN age BETWEEN 30 AND 39 THEN '30–39'
+    WHEN age BETWEEN 40 AND 49 THEN '40–49'
+    WHEN age >= 50 THEN '50+'
+    ELSE 'Unknown'
+  END AS age_group,
+  product_category,
+  COUNT(*) AS purchases,
+  SUM(Total_Amount) AS total_spent,
+  AVG(Total_Amount) AS avg_spent
+FROM  retail_sales_dataset.retail_sales_dataset
+GROUP BY age_group, product_category
+ORDER BY age_group, total_spent DESC;
+
+
+
+
+
+
+
+
+
+-- 5. How do customers adapt their shopping habits during seasonal trends?
+
+
+
+DESCRIBE retail_sales_dataset.retail_sales_dataset;
+
+select * 
+from retail_sales_dataset.retail_sales_dataset;
+
+SELECT 
+  DATE_FORMAT(date, '%Y-%m-01') AS month,
+  COUNT(*) AS total_records
+FROM retail_sales_dataset
+GROUP BY DATE_FORMAT(date, '%Y-%m-01')
+ORDER BY month;
+
+SELECT 
+  DATE_FORMAT(date,'01-%D-%Y') AS month,
+  COUNT(*) AS total_records
+FROM retail_sales_dataset.retail_sales_dataset
+WHERE date IS NOT NULL
+GROUP BY DATE_FORMAT(date, '01-%D-%Y')
+ORDER BY month;
+
+
+
+
+
+
+
+
+
+
+
+-- 6. Are there distinct purchasing behaviors based on the number of items bought per transaction?
+
+
+SELECT 
+  DATE_FORMAT(date, '%Y-%m-01') AS month,
+  COUNT(*) AS total_records
+FROM retail_sales_dataset
+GROUP BY DATE_FORMAT(date, '%Y-%m-01')
+ORDER BY month;
+
+SELECT 
+  DATE_FORMAT(date,'01-%D-%Y') AS month,
+  COUNT(*) AS total_records
+FROM retail_sales_dataset.retail_sales_dataset
+WHERE date IS NOT NULL
+GROUP BY DATE_FORMAT(date, '01-%D-%Y')
+ORDER BY month;
+
+
+
+
+select *
+from retail_sales_dataset.retail_sales_dataset;
+
+-- 7. What insights can be gleaned from the distribution of product prices within each category?
