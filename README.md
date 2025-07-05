@@ -5,9 +5,13 @@ TechStyle & Glow is a mid-sized retail company that operates both online and thr
 
 My objection is to 
 -- 1. How does customer age and gender influence their purchasing behavior? -- 
+
 -- 2. How are there discernible patterns in sales across different time periods? -- 
+
 -- 3. Which product categories hold the highest appeal among customers? -- 
+
 -- 4. What are the relationships between age, spending, and product preferences? -- 
+
 -- 5. How do customers adapt their shopping habits during seasonal trends? -- 
 
 
