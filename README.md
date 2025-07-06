@@ -17,7 +17,7 @@ My objection is to
 
 2. -- Data Structure --
 
-ghjk
+https://github.com/epierre038/Retail-Sales-Project-/blob/a70b6c715e68dd81a70fb13fefc673946bd957f1/Transaction%20ID.pdf
 
 
 
