@@ -6,8 +6,12 @@ TechStyle & Glow is a mid-sized retail company that operates both online and thr
 My objection is to 
 
 -- 1. How does customer age and gender influence their purchasing behavior? -- 
+A. Between male and female, male in the average age of 40 they would spend on Electroncis and while also female on the average age of 40 they would spend more on clothes. 
+
 
 -- 2. How are there discernible patterns in sales across different time periods? -- 
+a. Through out the quarters  of the year of 2023 we notice that the first quarters that clothing did very well making about 46k and 
+
 
 -- 3. Which product categories hold the highest appeal among customers? -- 
 
