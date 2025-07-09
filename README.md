@@ -12,12 +12,15 @@ A. Between male and female, male in the average age of 40 they would spend on El
 
 -- 2. How are there discernible patterns in sales across different time periods? -- 
 
-a. Through out the quarters  of the year of 2023 we notice that the first quarters that clothing did very well making about 46k and 
+A. Through out the quarters of the year of 2023 we notice that the first quarters that clothing did very well making about 46k. The second quarters electroncics did very well making about 46k that year. The third quater we are seeing that all three catagory are not or did not make over 40k this quater but still see Electronis did better then the other category. Now the last fours quaters electronic goes back making even more then the second quater making 48k that year.                                                                                                                                              
 
 
 -- 3. Which product categories hold the highest appeal among customers? -- 
+A. Out of the three catagory beauty, clothing, and Electronics and between the female and male. Clothing for female does very well by making 81k the  second highest is 80k for male in electronics then third is beauty for female making 74k. 
+
 
 -- 4. What are the relationships between age, spending, and product preferences? -- 
+ A. Wanting to look into age spending and we can see that 19, 34, 43, 51, has spended over 15k. Now about age 24, 32,39 41, and 49 has been low or close to only spending 5k. 
 
 -- 5. How do customers adapt their shopping habits during seasonal trends? -- 
 
