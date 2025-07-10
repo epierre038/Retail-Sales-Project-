@@ -42,7 +42,7 @@ A. Out of the three catagory beauty, clothing, and Electronics and between the f
 This analysis explores customer purchasing behavior based on age, gender, time periods, and product preferences using sales data from 2023.
 
 1. Gender and Age Influence on Purchasing Behavior
-Customer purchasing habits vary significantly by both gender and age. Males around the age of 40 tend to spend more on electronics, whereas females of the same average age show a stronger preference for clothing.
+Customer purchasing habits vary significantly by both gender and age. Males around the age of 40 tend to spend more on electronics, where as females of the same average age show a stronger preference for clothing.
 
 2. Sales Patterns Across Time Periods
 Sales trends throughout 2023 reveal noticeable quarterly shifts in product category performance:
@@ -77,4 +77,10 @@ This suggests that purchasing power and preferences vary notably by age, with pe
 
 
 5. -- insight Deep dive --
+
+
+
 6. -- Recommendation -- 
+
+As for recommendation for better proformence for the next year when looking into the three category for male and female we would want to accomdate for the needs for both male and female. Male are intersted in electrics and female are most intersted on clothes. Then going onto when it would be a good time to promote good sales deals and or tacktiks would be Q3 and or looking into why might Q3 being so low. As we can see each age and now determened what age are spending the most we can choose what age would like to target for the future. 
+
