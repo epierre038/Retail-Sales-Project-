@@ -75,12 +75,11 @@ This suggests that purchasing power and preferences vary notably by age, with pe
 
 
 
-
-5. -- insight Deep dive --
-
+5. -- Recommendation -- 
 
 
-6. -- Recommendation -- 
+When analyzing the three categories by gender, it's important to accommodate the needs of both male and female consumers. Our data shows that males are most interested in electronics, while females show the highest interest in clothing.
 
-As for recommendation for better proformence for the next year when looking into the three category for male and female we would want to accomdate for the needs for both male and female. Male are intersted in electrics and female are most intersted on clothes. Then going onto when it would be a good time to promote good sales deals and or tacktiks would be Q3 and or looking into why might Q3 being so low. As we can see each age and now determened what age are spending the most we can choose what age would like to target for the future. 
+In terms of sales strategy, Q3 stands out as a key area to focus on—either by promoting special deals or investigating why performance tends to dip during this quarter. Additionally, by reviewing spending habits across different age groups, we can identify which demographics are spending the most and least. This allows us to more effectively target age groups in future campaigns.
 
+Currently, the average customer age is 40, which can guide us in refining our marketing efforts to align with the preferences of that age group.
